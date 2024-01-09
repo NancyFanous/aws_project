@@ -1,0 +1,15 @@
+{
+   "TargetValue": 10,
+   "CustomizedMetricSpecification": {
+      "MetricName": "BacklogPerInstance",
+      "Namespace": "CustomMetrics_nancyf",
+      "Dimensions": [
+         {
+            "Name": "AutoScalingGroupName",
+            "Value": "nancyf_yolo5_asg"
+         }
+      ],
+      "Statistic": "Average",
+      "Unit": "Count"
+   }
+}
